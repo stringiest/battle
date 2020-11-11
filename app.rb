@@ -2,7 +2,7 @@ require 'sinatra/base'
 
 class Battle < Sinatra::Application
   get '/' do
-    'Hello world!'
+    'Testing infrastructure working!'
   end
 
 # start the server if ruby file executed directly
