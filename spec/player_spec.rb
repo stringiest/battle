@@ -2,7 +2,7 @@ require 'player'
 
 describe Player do
   it "knows its name" do
-    subject = Player.new("Annabel")
-    expect(subject.name).to eq "Annabel"
+    subject = Player.new("Ernie")
+    expect(subject.name).to eq "Ernie"
   end
 end
