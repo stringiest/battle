@@ -5,4 +5,6 @@ describe Player do
     subject = Player.new("Ernie")
     expect(subject.name).to eq "Ernie"
   end
+
+  
 end
